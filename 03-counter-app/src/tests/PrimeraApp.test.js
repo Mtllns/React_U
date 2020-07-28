@@ -13,7 +13,7 @@ describe('Pruebas en <PrimeraApp />', () => {
     //     expect( getByText(saludo) ).toBeInTheDocument();
     // });
 
-    test('debe mostrar <PrimeraApp /> cosrrectamente ', () => {
+    test('debe mostrar <PrimeraApp /> correctamente ', () => {
 
         const saludo = 'Hola, soy Goku';
         const wrapper = shallow( <PrimeraApp saludo={ saludo } /> )
